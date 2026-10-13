@@ -1,13 +1,12 @@
-
 .container-2 {
     width: 100%;
     min-height: 600px;
     display: grid;
-   
     grid-template-columns: repeat(3, 1fr);
-    gap: 60px 30px; 
+    gap: 50px 40px; 
     max-width: 1200px;
-    margin: 60px auto;
+    margin: 0 auto;
+    padding: 20px;
     box-sizing: border-box;
 }
 
@@ -16,12 +15,11 @@
     text-align: center;
     font-size: 60px;
     font-weight: 700;
-    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .baking {
     display: flex;
-    flex-direction: row;
     align-items: flex-start;
     gap: 20px;
 }
@@ -32,25 +30,26 @@
     flex-shrink: 0;
     object-fit: contain;
 }
-.baking_content
- {
+
+.baking_content, 
+div[class*="No Order"], 
+div[class*="Delicious Baking"] {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
-
-
 .container-2 h3 {
     font-size: 20px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin: 0;
 }
 
 .container-2 p {
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.6;
     margin: 0;
 }
+
 @media (max-width: 992px) {
     .container-2 {
         grid-template-columns: repeat(2, 1fr);
@@ -58,23 +57,18 @@
     }
     
     .container-2 h2 {
-        font-size: 48px; 
+        font-size: 48px;
     }
 }
 
-
 @media (max-width: 600px) {
     .container-2 {
-        grid-template-columns: 1fr; 
+        grid-template-columns: 1fr;
         gap: 35px 0;
     }
     
     .container-2 h2 {
-        font-size: 36px; 
+        font-size: 36px;
         margin-bottom: 10px;
-    }
-
-    .baking {
-        flex-direction: row; 
     }
 }
