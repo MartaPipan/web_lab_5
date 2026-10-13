@@ -1,0 +1,114 @@
+.container-4 {
+    width: 100%;
+    min-height: 600px;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding-bottom: 60px; 
+}
+.container-4 h2 {
+    margin: 40px;
+    color: #111111;
+}
+.grid-8 {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    margin-bottom: 60px;
+}
+.card {
+    box-sizing: border-box;
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    flex-direction: column; 
+    padding: 20px 20px 30px 20px;
+    justify-content: flex-start;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    
+    /* Garante que a transição da sombra ao passar o rato seja fluida 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;*/
+}
+
+/*
+    .card:hover {
+    /* Faz o card subir ligeiramente (3 píxeis) 
+    transform: translateY(-3px); 
+    /* Deixa a sombra um pouco mais intensa e espalhada 
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.5); 
+}
+*/
+
+.card img {
+    width: 100%;
+    aspect-ratio: 1 / 1; 
+    object-fit: cover; 
+}
+
+.card article {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    text-align: left;
+    flex-grow: 1; 
+}
+
+.card article h4 {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 0 0 10px 0;
+    color: #111111;
+}
+
+.card article p {
+    font-style: italic;
+    font-size: 17px;
+    letter-spacing: -1px;
+    color: #494848;
+    margin: 0 0 20px 0;
+    line-height: 1.5;
+    flex-grow: 1;
+}
+
+.card article a {                  
+  font-size: 16px;                      
+  border-bottom: 1px solid black;
+  padding-bottom: 2px;  
+  cursor: pointer;
+  text-decoration: none; 
+  color: #111111;
+  align-self: center; 
+  display: inline-block; 
+}
+
+.container-4 p {
+    font-weight: 500;
+}
+
+.container-4 p a {
+    color: #111111;
+    text-decoration: underline;
+}
+
+@media (max-width: 1024px) {
+    .grid-8 {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 600px) {
+    .grid-8 {
+        grid-template-columns: 1fr; 
+        gap: 20px;
+    }
+}

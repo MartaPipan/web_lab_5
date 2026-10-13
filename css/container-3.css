@@ -10,41 +10,49 @@
     display: flex;
     position: relative;
     justify-content: flex-end;
-    align-items: center; 
+    align-items: center; /* Centra o bloco de texto verticalmente no ecrã de forma segura */
 }
 
-.container-3> .text-content {
+.container-3 > .text-content {
     font-family: Montserrat, sans-serif;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    height: 100%;
+    justify-content: center; 
+    height: 60%; 
     width: 50%;
-    margin-top: 30px;
+    padding: 40px 0; 
     overflow-wrap: break-word;
     color: white;
 }
 
 .container-3 .text-content h2 {
     width: 60%;
-    margin-top: 15px;
+    margin-top: 0;       
+    margin-bottom: 20px; 
+    line-height: 1;    
 }
+
 .container-3 .text-content p {
     width: 60%;
-    margin-top: 15px;
+    margin-top: 0;
+    margin-bottom: 40px;
 }
 
 .container-3 .text-content a {
     text-decoration: underline;
     color: white;
 }
+
 .container-3 .text-content button {     
-  color: #ffffff;                 
+    color: #ffffff;
+    margin-top: auto; 
+    margin-bottom: 0;
+    align-self: flex-start; 
+    white-space: nowrap;  
 }   
 
 .button-1:hover {     
-  background-color: black;      
-  border-color: black; 
+    background-color: black;      
+    border-color: black; 
 }
