@@ -31,15 +31,14 @@
     object-fit: contain;
 }
 
-.baking_content, 
-div[class*="No Order"], 
-div[class*="Delicious Baking"] {
+.baking_content div
+ {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 .container-2 h3 {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 700;
     margin: 0;
 }
