@@ -3,16 +3,23 @@
     height: calc(100vh - 60px);
     min-height: 600px;
     max-height: 800px;
-    background-image: url('../imgs/bg-1.jpg');
-    background-position: center;
+    background-image: url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/9ccfd8184e705bad974787e7/ghgh-min.jpg);
+    background-position: 60% center;
+    background-size: 140% auto;
     background-repeat: no-repeat; 
-    background-size: cover;
+
     display: flex;
     position: relative;
     justify-content: flex-end;
     align-items: center; 
 }
-
+.container-3::after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: radial-gradient(circle at 15% 50%, transparent 10%, rgba(0, 0, 0, 0.65) 75%);
+    z-index: 1;
+} 
 .container-3 > .text-content {
     font-family: Montserrat, sans-serif;
     box-sizing: border-box;
@@ -24,6 +31,9 @@
     padding: 40px 0; 
     overflow-wrap: break-word;
     color: white;
+
+    position: relative;
+    z-index: 2; 
 }
 
 .container-3 .text-content h2 {
