@@ -31,6 +31,7 @@
     grid-column: 1;
     grid-row: 2 / 4; 
     width: 100%;
+    height: 100%;
     
     object-fit: cover; 
     object-position: 80% center; 
@@ -38,8 +39,9 @@
 
 .baker-grid img[alt="bread"] {
     grid-column: 2;
-    grid-row: 1 / 4; 
+    grid-row: 1 / 3; 
     width: 100%;
+    height: 100%;
     
     object-fit: cover; 
 }
