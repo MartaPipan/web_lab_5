@@ -11,8 +11,6 @@
     flex-direction: column;
     justify-content: center; 
     align-items: center; 
-    color: white;
-    font-family: 'Roboto', sans-serif;
 }
 
 .block-menu {
@@ -82,11 +80,12 @@ h2 {
 }
 
 .block-menu > p {
-    font-size: 14px;
+    font-size: 16px;
     color: white;
 }
 
 .block-menu > p a {
     color: white;
     text-decoration: underline;
+    text-underline-offset: 6px; 
 }

@@ -1,0 +1,10 @@
+.container-9 {
+    width: 100%;
+    height: calc(100vh - 60px);
+    min-height: 600px;
+    max-height: 850px; 
+    background-image: url(../imgs/container-9/bread_c_9.jpg);
+    
+    background-size: cover;
+    background-position: center;
+}
