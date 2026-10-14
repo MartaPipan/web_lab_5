@@ -38,6 +38,7 @@
     font-size: 18px;
     line-height: 1.6;
  }
+
 .button-1 {                  
   background-color: transparent;            
   padding: 15px 60px;              
@@ -47,11 +48,19 @@
   border-radius: 25px;              
   cursor: pointer;                
   transition: background-color 0.3s, border-color 0.3s; 
+  
+ 
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
 }   
 
 .button-1:hover {     
   background-color: black;      
   border-color: black; 
+  color: #ffffff; 
 }
+
 
  

@@ -1,0 +1,68 @@
+.container-6 {
+    width: 100%;
+    padding: 60px 0; 
+    box-sizing: border-box;
+}
+
+.text-container {
+    width: 64%;
+    
+    margin: 0 auto;
+    padding: 0 20px;
+    text-align: left;
+}
+
+.text-container h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+  color: #111111;
+  margin-bottom: 30px;
+}
+
+.text-container p:nth-of-type(1) {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  line-height: 2;
+  color: #444444;
+  margin-bottom: 30px;
+}
+
+.text-container p:nth-of-type(1) a {
+  color: #111111;
+  font-weight: bold;
+}
+
+/*  Freepik*/
+.text-container p:nth-of-type(2) {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #444444;
+}
+
+.text-container p:nth-of-type(2) a {
+  color: #111111;
+}
+
+.button-1 {                  
+  background-color: transparent;            
+  padding: 15px 60px;              
+  font-size: 16px;              
+  font-weight: bold;            
+  border: 2px solid #111111; 
+  border-radius: 25px;              
+  cursor: pointer;                
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s; 
+  
+  display: inline-block;
+  text-decoration: none;
+  color: #111111;
+  text-align: center;
+}   
+
+.button-1:hover {     
+  background-color: #000000;      
+  border-color: #000000; 
+  color: #ffffff;
+}

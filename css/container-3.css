@@ -10,7 +10,7 @@
     display: flex;
     position: relative;
     justify-content: flex-end;
-    align-items: center; /* Centra o bloco de texto verticalmente no ecrã de forma segura */
+    align-items: center; 
 }
 
 .container-3 > .text-content {
@@ -39,20 +39,67 @@
     margin-bottom: 40px;
 }
 
-.container-3 .text-content a {
+.container-3 .text-content p a {
     text-decoration: underline;
     color: white;
+    transition: color 0.3s, text-decoration-color 0.3s;
 }
 
-.container-3 .text-content button {     
+
+.container-3 .text-content p a:hover {
+    color: orange;
+    text-decoration-color: orange;
+}
+
+.container-3 .text-content a.button-1 {     
+    background-color: transparent;            
+    padding: 15px 60px;              
+    font-size: 16px;              
+    font-weight: bold;            
+    border: 2px solid #ffffff; 
+    border-radius: 25px;              
+    cursor: pointer;                
+    transition: background-color 0.3s, border-color 0.3s; 
+    
+    display: inline-block;
+    text-decoration: none;
     color: #ffffff;
+    text-align: center;
     margin-top: auto; 
     margin-bottom: 0;
     align-self: flex-start; 
     white-space: nowrap;  
 }   
 
-.button-1:hover {     
+.container-3 .text-content a.button-1:hover {     
     background-color: black;      
     border-color: black; 
+    color: #ffffff; 
+    text-decoration: none;
+}
+@media (max-width: 992px) {
+    .container-3 {
+        justify-content: center; 
+        height: auto;
+        padding: 80px 0;
+    }
+
+    .container-3 > .text-content {
+        width: 90%;
+        text-align: center; 
+        align-items: center;
+    }
+
+    .container-3 .text-content h2,
+    .container-3 .text-content p {
+        width: 100%; 
+    }
+
+    .container-3 .text-content h2 {
+        font-size: 2rem; 
+    }
+
+    .container-3 .text-content a.button-1 {
+        align-self: center;
+    }
 }
