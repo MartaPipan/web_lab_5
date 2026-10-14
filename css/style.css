@@ -42,7 +42,8 @@
 .button-1 {                  
   background-color: transparent;            
   padding: 15px 60px;              
-  font-size: 16px;              
+  font-size: 16px;
+  letter-spacing: 3px;              
   font-weight: bold;            
   border: 2px solid #ffffff; 
   border-radius: 25px;              

@@ -1,0 +1,92 @@
+.container-7 {
+    width: 100%;
+    height: calc(100vh - 60px);
+    min-height: 600px;
+    max-height: 850px; 
+    background-image: url('../imgs/container-7/handmade.jpg');
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.block-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+
+h2 {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 50px; 
+    align-self: center;
+}
+
+.menu {
+    display: flex;          
+    flex-direction: row;   
+    justify-content: center;
+    align-items: stretch;   
+    width: 85%;
+    max-width: 1200px;      
+    margin-bottom: 30px;  
+}
+
+.menu-card {
+    background-color: white;
+    border-radius: 16px;    
+    padding: 35px 30px;
+    color: black;
+    margin: 0 15px;         
+    flex: 1;                
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+}
+
+.menu-card h3 {
+    margin-top: 0;  
+    margin-bottom: 25px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.menu-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-card ul li {
+    font-size: 20px; 
+    color: #333333;         
+    margin-bottom: 16px; 
+    display: flex;
+    align-items: center;
+}
+
+.menu-card ul li::before {
+    content: "—  ";         
+    color: #333333;
+}
+
+.menu-card ul li:last-child {
+    margin-bottom: 0;
+}
+
+.block-menu > p {
+    font-size: 14px;
+    color: white;
+}
+
+.block-menu > p a {
+    color: white;
+    text-decoration: underline;
+}

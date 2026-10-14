@@ -48,7 +48,8 @@
 .button-1 {                  
   background-color: transparent;            
   padding: 15px 60px;              
-  font-size: 16px;              
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;              
   font-weight: bold;            
   border: 2px solid #111111; 
   border-radius: 25px;              
