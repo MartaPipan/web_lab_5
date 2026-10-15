@@ -29,20 +29,28 @@
 }
 
 .text-container p:nth-of-type(1) a {
-  color: #111111;
-  font-weight: bold;
+  color: #5c5b5b;
+}
+
+.text-container p:nth-of-type(1) a.span-in-text {
+  color: #343333;
+  font-weight: 400; 
+  text-decoration: underline;
+  text-underline-offset: 10px; 
+}
+.text-container p:nth-of-type(1) a.span-in-text:hover {
+  text-decoration-color:rgb(252, 123, 3) ;
 }
 
 /*  Freepik*/
 .text-container p:nth-of-type(2) {
   font-family: 'Roboto', sans-serif;
-  font-size: 16px;
   margin-bottom: 30px;
   color: #444444;
 }
 
 .text-container p:nth-of-type(2) a {
-  color: #111111;
+  color: #444444;
 }
 
 .button-1 {                  
@@ -60,7 +68,7 @@
   text-decoration: none;
   color: #111111;
   text-align: center;
-}   
+} 
 
 .button-1:hover {     
   background-color: #000000;      

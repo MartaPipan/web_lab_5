@@ -15,7 +15,7 @@
 }
 
 .text h2 {
-    
+    color: black;
     letter-spacing: 1px;
     margin-bottom: 10px; 
     align-self: center;
@@ -23,15 +23,15 @@
 }
 .text > p {
     font-size: 16px;
-    color: black;
     align-self: center;
     margin-bottom: 30px;
     font-family: 'Montserrat', sans-serif; 
 }
 
-.text > p a {
-    color: black;
-    text-decoration: underline;
+.text > p a:hover {
+  
+    text-decoration-color: rgb(250, 139, 3);
+
     text-underline-offset: 6px; 
 }
 

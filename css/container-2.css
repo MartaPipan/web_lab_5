@@ -16,6 +16,7 @@
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 20px;
+    color: black;
 }
 
 .baking {
@@ -31,7 +32,7 @@
     object-fit: contain;
 }
 
-.baking_content div
+.baking_content 
  {
     display: flex;
     flex-direction: column;
